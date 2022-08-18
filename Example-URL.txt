@@ -1,0 +1,16 @@
+
+
+Route::apiResource('/venoms',VenomController::class);
+=======================================================
+store: "Post"
+http://localhost:8000/api/venoms
+
+Show: "Get"
+http://localhost:8000/api/venoms/3
+
+update:"PUT"
+http://localhost:8000/api/venoms/3
+=========================================================
+
+Normal: Get Index
+get->      http://localhost:8000/api/test
